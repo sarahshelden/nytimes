@@ -1,0 +1,23 @@
+html{
+    margin: 0px auto;
+    width: 960px;
+}
+#head{
+
+    background-color: darkslategray;
+    height: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 15px;
+}
+h2{
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: white;
+    color: white;
+
+}

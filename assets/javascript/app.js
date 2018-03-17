@@ -10,6 +10,8 @@ var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 url += '?' + $.param({
   'api-key': "c6149b5cfe2845168c45e6f08920cfd5",
   'q': searchTerm;
+  'begin_date': startDate;
+  "end_date": endDate;
 });
 $.ajax({
   url: url,
@@ -23,8 +25,7 @@ $.ajax({
 
 // article counter
 
-var articleCounter;
+var articleCounter = 0;
 
-//
-var queryUrl:
+
 
